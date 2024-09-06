@@ -1,0 +1,57 @@
+.menu {
+  height: 100vh;
+  background-color: $bc-color;
+  padding-inline: 20px;
+
+  &__nav {
+    margin-top: 40px;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__today-shedule-text {
+    font-family: $small-font;
+    font-size: 14px;
+    color: $white-color;
+    font-weight: 400;
+    line-height: 19.6px;
+  }
+
+  &__today-shedule-value {
+    font-family: $small-font;
+    font-size: 16px;
+    color: $white-color;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  &__adress-text {
+    font-family: $small-font;
+    font-size: 14px;
+    color: $white-color;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-top: 20px;
+    line-height: 19.6px;
+  }
+
+  &__adress-value {
+    font-family: $small-font;
+    font-size: 16px;
+    color: $white-color;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  &__line {
+    margin-top: 40px;
+    width: 100ww;
+    border-bottom: 1px solid $white-color;
+    color: $white-color;
+    margin-bottom: 40px;
+  }
+}
+

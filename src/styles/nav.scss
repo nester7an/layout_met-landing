@@ -1,0 +1,17 @@
+.nav {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  &__link {
+    font-family: $big-font;
+    font-weight: 700;
+    font-size: 20;
+    line-height: 30px;
+    text-decoration: none;
+    color: $white-color;
+  }
+}
+

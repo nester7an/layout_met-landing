@@ -1,0 +1,25 @@
+{
+  "name": "layout_met-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nester7an/layout_met-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nester7an/layout_met-landing/issues"
+  },
+  "homepage": "https://github.com/nester7an/layout_met-landing#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0"
+  }
+}
